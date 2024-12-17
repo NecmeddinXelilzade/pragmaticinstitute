@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid  #D9D9D9;
+    border-width: 0px 0px 1px 0px;
+    /* margin: 10px; */
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+}
+
+.leftitem{
+    display: flex;
+    flex-direction: row;
+}
+
+.rightitem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo{
+    width: 65px;
+    height: 45px;
+}
+
+.contendline{
+    display: flex;
+    flex-direction: row;
+}
+
+.contend{
+margin-left: 20px;
+font-size: 16px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contend:hover{
+    color: blue;
+}
+
+.arrow{
+    width: 22px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.inp{
+    width: 150px;
+    height: 30px;
+    border: solid 1px #D9D9D9;
+}
+
+.loginbtn{
+    height: 45px;
+    width: 100px;
+    border: solid 1px #F57600;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.loginbtn:hover{
+    background-color: #F57600;
+    color: white;
+}
+
+.registerbtn{
+    height: 45px;
+    width: 140px;
+    border: solid 1px #F57600;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: #F57600;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.registerbtn:hover{
+    background-color: white;
+    color: #F57600 ;
+}
