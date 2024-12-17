@@ -8,6 +8,7 @@
     border-width: 0px 0px 1px 0px;
     /* margin: 10px; */
     position: fixed;
+    top: 0;
     z-index: 500;
     background-color: white;
 }
