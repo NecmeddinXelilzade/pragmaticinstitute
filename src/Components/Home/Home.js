@@ -8,13 +8,12 @@ const Home = () => {
   return (
     <div>
       <div>
-        <div className={styles.textline} >
+        <div className={styles.textline}>
           The Most Sought-After Product Management and Product Marketing
           Certifications In The World
         </div>
         <div className={styles.cardcontainer}>
           <div className={styles.card}>
-            {" "}
             <div>
               <img className={styles.imageone} src={one} alt="" />
             </div>
@@ -62,18 +61,22 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className={styles.boxline} >
-         <div className={styles.box}>View Certifications</div>
-         <div className={styles.box}>Viey Courses</div>
+        <div className={styles.boxline}>
+          <div className={styles.box}>View Certifications</div>
+          <div className={styles.box}>Viey Courses</div>
         </div>
       </div>
       <div>
-        {/* <div>
-          <img className={styles.cartboximage} src={productimage} alt="" />
+        <div>
+          <div>
+            <img className={styles.cartboximage} src={productimage} alt="" />
+          </div>
+          <div>
           <h1>Product</h1>
           <span>Equip your team to create outstanding product</span>
           <span>Learn More</span>
-        </div> */}
+          </div>
+        </div>
       </div>
     </div>
   );
